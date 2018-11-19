@@ -3,7 +3,7 @@ Personal configuration for the bash shell.
 
 ## Setup
 
-1. Copy the `.bash` folder to your home directory.
+1. Clone this repo to the `.bash` folder in your home directory.
 
 2. Update `~/.bash_profile` to:
 
