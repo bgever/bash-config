@@ -1,0 +1,17 @@
+export EDITOR="nano"
+
+export PATH=${PATH}:/Applications/Android\ Studio.app/sdk/platform-tools:/Applications/Android\ Studio.app/sdk/tools
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=${JAVA_HOME}/bin:$PATH
+export PATH=/usr/local/bin:$PATH
+
+# Visual Studio Code command line
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+
+export PATH=$PATH:/Users/bart/bin
+
+source '/Users/Bart/lib/azure-cli/az.completion'
+
+# Configure Node.js with NVM
+source ~/repos/nvm/nvm.sh
+nvm use default
